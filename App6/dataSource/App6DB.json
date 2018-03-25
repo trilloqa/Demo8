@@ -1,0 +1,6 @@
+{
+  "name" : "App6DB",
+  "type" : "mysql",
+  "useDefault" : true,
+  "properties" : { }
+}

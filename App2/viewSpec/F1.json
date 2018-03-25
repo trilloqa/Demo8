@@ -1,0 +1,37 @@
+{
+  "name" : "F1",
+  "type" : "form",
+  "fieldSpecs" : [
+    {
+      "name" : "Text_1",
+      "displayName" : "Text_1",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_2",
+      "displayName" : "Text_2",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Select_1",
+      "displayName" : "Age",
+      "enumName" : "age-type",
+      "editable" : true,
+      "type" : "select"
+    },
+    {
+      "name" : "Email_1",
+      "displayName" : "Email_1",
+      "editable" : true,
+      "type" : "email"
+    },
+    {
+      "name" : "DateTimeLocal_1",
+      "displayName" : "DateTimeLocal_1",
+      "editable" : true,
+      "type" : "datetime-local"
+    }
+  ]
+}

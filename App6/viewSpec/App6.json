@@ -1,0 +1,72 @@
+{
+  "name" : "App6",
+  "type" : "page",
+  "displayName" : "Left-Right Sidebar &amp; Title",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "autoNav" : false,
+      "designTimeHeight" : "49px",
+      "tag" : "templateE",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "leftColumn",
+          "autoNav" : false,
+          "cssClass" : "left-column",
+          "designTimeWidth" : "250px",
+          "tag" : "templateE",
+          "type" : "column"
+        },
+        {
+          "name" : "titleAndContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "titleBar",
+              "autoNav" : false,
+              "css" : {
+                "designTimeHeight" : "30px",
+                "padding" : "5px 20px"
+              },
+              "tag" : "templateE",
+              "type" : "row"
+            },
+            {
+              "name" : "mainContentArea",
+              "autoNav" : false,
+              "designTimeHeight" : "100px",
+              "flexGrow" : "1",
+              "main" : true,
+              "tag" : "templateE",
+              "type" : "row"
+            }
+          ],
+          "flexGrow" : "1",
+          "main" : true,
+          "tag" : "templateE",
+          "type" : "column"
+        },
+        {
+          "name" : "rightColumn",
+          "autoNav" : false,
+          "cssClass" : "right-column",
+          "designTimeWidth" : "250px",
+          "minWidth" : "0px",
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "cssClass" : "light-content-area main-row",
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ]
+}
