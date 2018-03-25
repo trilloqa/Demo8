@@ -15,12 +15,12 @@ https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods
 https://www.trillo.io/lib/js/jquery.history-master/jquery.history.min.js
 
 # You can comment or uncomment following lines as needed
-https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.1.2/flatpickr.min.js
-https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js
-https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js
-https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js
-https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js
-https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
+#https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.1.2/flatpickr.min.js
+#https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js
+#https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js
+#https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js
+#https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js
+#https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
 
 # You can comment or uncomment following lines as needed (if app does not use chartjs then comment it).
 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js

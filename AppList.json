@@ -1,48 +1,10 @@
 [
   {
     "appTemplate" : "webapp",
-    "displayName" : "App1",
-    "linkedApp" : "shared",
-    "metaDataPubliclyViewable" : false,
-    "multiBranch" : false,
-    "name" : "App1",
-    "requiredRoles" : "user",
-    "requiresLogin" : true,
-    "trilloVersion" : "2.0",
-    "useTestData" : true,
-    "usingEnumsCatalog" : true,
-    "usingStringFiles" : true,
-    "usingViewSpecs" : true
-  },
-  {
-    "appTemplate" : "webapp",
-    "displayName" : "App2",
-    "linkedApp" : "shared",
-    "multiBranch" : false,
-    "name" : "App2",
-    "requiredRoles" : "none",
-    "trilloVersion" : "2.0",
-    "useTestData" : true,
-    "usingEnumsCatalog" : true,
-    "usingStringFiles" : true,
-    "usingViewSpecs" : true
-  },
-  {
-    "appTemplate" : "webapp",
-    "displayName" : "App6",
-    "linkedApp" : "shared",
-    "multiBranch" : false,
-    "name" : "App6",
-    "requiredRoles" : "none",
-    "trilloVersion" : "2.0",
-    "useTestData" : true,
-    "usingEnumsCatalog" : true,
-    "usingStringFiles" : true,
-    "usingViewSpecs" : true
-  },
-  {
-    "appTemplate" : "webapp",
+    "description" : "D8App1",
     "displayName" : "D8App1",
+    "htmlHeadTitle" : "D8App1",
+    "keywords" : "D8App1",
     "linkedApp" : "shared",
     "metaDataPubliclyViewable" : false,
     "multiBranch" : true,
@@ -56,17 +18,17 @@
     "usingViewSpecs" : true
   },
   {
-    "appTemplate" : "webapp",
-    "displayName" : "D8App2",
+    "description" : "Authentication",
+    "displayName" : "Authentication",
+    "htmlHeadTitle" : "Authentication",
+    "keywords" : "Cloud, JavaScript, Framework, Services, Micro, Prototype",
     "linkedApp" : "shared",
-    "multiBranch" : false,
-    "name" : "D8App2",
-    "requiredRoles" : "none",
-    "trilloVersion" : "2.0",
-    "useTestData" : true,
+    "multiBranch" : true,
+    "name" : "auth",
+    "trilloVersion" : "1.0",
     "usingEnumsCatalog" : true,
     "usingStringFiles" : true,
-    "usingViewSpecs" : true
+    "usingViewSpecs" : false
   },
   {
     "appTemplate" : "webapp",
@@ -86,16 +48,57 @@
     "usingViewSpecs" : false
   },
   {
-    "description" : "Authentication",
-    "displayName" : "Authentication",
-    "htmlHeadTitle" : "Authentication",
-    "keywords" : "Cloud, JavaScript, Framework, Services, Micro, Prototype",
+    "appTemplate" : "webapp",
+    "displayName" : "D8App2",
     "linkedApp" : "shared",
     "multiBranch" : true,
-    "name" : "auth",
-    "trilloVersion" : "1.0",
+    "name" : "D8App2",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
     "usingEnumsCatalog" : true,
     "usingStringFiles" : true,
-    "usingViewSpecs" : false
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
+    "displayName" : "App1",
+    "linkedApp" : "shared",
+    "metaDataPubliclyViewable" : false,
+    "multiBranch" : true,
+    "name" : "App1",
+    "requiredRoles" : "user",
+    "requiresLogin" : true,
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
+    "displayName" : "App2",
+    "linkedApp" : "shared",
+    "multiBranch" : true,
+    "name" : "App2",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
+    "displayName" : "App6",
+    "linkedApp" : "shared",
+    "multiBranch" : true,
+    "name" : "App6",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
   }
 ]
